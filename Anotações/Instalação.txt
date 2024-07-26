@@ -1,0 +1,34 @@
+-> Requisitos e instalação:
+- PHP >=7.3
+- Composer
+Obs: Instalando o programa Xampp ele traz todos os
+elementos básicos pra usar o laravel (o PHP por exemplo)
+- Então instalar o Xampp primeiro e depois o Composer (Durante a instalação do Composer
+ele vai localizar o Xampp e instalar o PHP)
+- Como Editor de código, dica é usar o VS Code
+
+-> Para criar um projeto novo de laravel
+usar o comando abaixo no terminal do VS CODE:
+composer create-project --prefer-dist laravel/laravel "nome do projeto"
+
+obs: Caso ocorra o erro 
+Failed to download laravel/laravel from dist: The zip extension and unzip/7z commands are both missing, skipping.
+The php.ini used by your command-line PHP is: C:\xampp\php\php.ini
+    Now trying to download from source
+
+- Abrir a pasta do Xampp, localizar e abrir o arquivo php.ini
+ex: C:\xampp\php\php.ini 
+Edite o php.ini:
+
+- Abra o php.ini com um editor de texto (por exemplo, Notepad++ ou VSCode).
+Procure pela linha ;extension=zip e remova o ponto e vírgula (;) do início da linha para descomentá-la.
+A linha deve ficar assim: extension=zip.
+Reinicie o Apache:
+Vá para o painel de controle do XAMPP e reinicie o Apache para aplicar as alterações.
+
+-> Para abrir o projeto:
+- No terminal do VS digitar cd "nome do projeto". Ao abrir, digitar php artisan serve
+- Vai mostrar no terminal um servidor para a view do projeto conforme o exemplo:
+ INFO  Server running on [http://127.0.0.1:8000].
+Só clicar na url gerada
+
