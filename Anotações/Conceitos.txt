@@ -7,5 +7,3 @@ as representações gráficas das páginas
 -deixa  as nossas views mais dinâmicas
 -Insere tags HTML e tbm dados que são fornecidos pelo banco
 -As views então são responsabilidade do Blade
-
-->
