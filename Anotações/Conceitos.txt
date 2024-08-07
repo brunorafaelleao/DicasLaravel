@@ -7,3 +7,6 @@ as representações gráficas das páginas
 -deixa  as nossas views mais dinâmicas
 -Insere tags HTML e tbm dados que são fornecidos pelo banco
 -As views então são responsabilidade do Blade
+
+-> Aplicações web usam os arquivos CSS, JS e imagens.
+- Para inserir esses arquivos colocá-los na pasta public
