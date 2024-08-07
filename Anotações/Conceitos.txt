@@ -10,3 +10,14 @@ as representações gráficas das páginas
 
 -> Aplicações web usam os arquivos CSS, JS e imagens.
 - Para inserir esses arquivos colocá-los na pasta public
+
+-> Layouts com Blade
+- Essa funcionalidade serve para reaproveitamento de códigos
+- usando o layout do Blade podemos criar seções do site
+- Para criar, usamos a pasta resources/views. Dentro da pasta views criamos uma
+outra pasta com o nome layouts e dentro dessa pasta layouts criamos um arquivo
+com o nome main.blade.php
+
+-> Parâmetros nas Rotas
+- é possível mudar como uma view responde por meio dos parametros a uma rota
+- Definimos a rota colocando um {id}
